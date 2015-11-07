@@ -1,0 +1,178 @@
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+/*
+body {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	background: url('../img/backgrounds/gm_forest.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+*/
+body{
+	font-family: 'Source Sans Pro', sans-serif !important;
+	background: #000;
+	font-weight: 400;
+	font-size: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.ie7 body{
+	overflow:hidden;
+}
+
+.communityName {
+	color: #fff;
+	text-shadow: 1px 1px 0px #000;
+	font-size: 52px;
+	font-weight: 300 !important;
+	text-align: center;
+	position: relative;
+}
+
+h1 {
+    font-weight: 300 !important;
+	font-size: 42px;
+}
+
+
+.avatarBG {
+	background-image: url(../img/avatarbg.png);
+	width: 66px;
+	height: 66px;
+	float: left;
+	margin-right: 20px;
+}
+
+.avatar {
+	-o-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	-moz-border-radius: 32px;
+	border-radius: 32px;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-left: 2px;
+}
+
+.playerInfo {
+	font-size: 20px;
+}
+
+.playerInfoSmall {
+	font-size: 17px;
+}
+
+.consoleBox {
+	background: #303030;
+	background-image: url(../img/noise.png);
+	color: #999999;
+	min-height: 300px;
+	border-radius: 6px;
+	padding: 5px;
+	font-weight: 400 !important;
+}
+
+.status {
+	color: #82bf86;
+}
+
+#gamedetails {
+	color: #82a7bf;
+}
+
+#white {
+	color: #d1d1d1;
+	font-weight: 400 !important;
+}
+
+#jpeg {
+	color: #82babc;
+}
+#png {
+	color: #b182bc;
+}
+#particles {
+	color: #9a82bc;
+}
+#models {
+	color: #828ebc;
+}
+#texture {
+	color: #86bc82;
+}
+#map {
+	color: #bc8283;
+}
+#sounds {
+	color: #bcbc82;
+}
+#fonts {
+	color: #bca582;
+}
+
+/*Borrowed from Bootstrap*/
+.cJumbotron {
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1;
+  color: #a5a5a5;
+  background-color: #252525;
+  background-image: url(../img/noise.png);
+  width: 800px;
+  margin: 0 auto;
+  min-height: 66px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.58);
+box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.58);
+}
+
+.cJumbotron h1,
+.cJumbotron .h1 {
+  line-height: 1;
+  color: inherit;
+}
+
+.cJumbotron p {
+  line-height: 0.5;
+}
+
+.container .cJumbotron {
+  border-radius: 6px;
+}
+
+.cJumbotron .container {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .cJumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .container .cJumbotron {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .cJumbotron h1,
+  .cJumbotron .h1 {
+    font-size: 63px;
+  }
+}
+
+.cJumbotron h1,
+.cJumbotron h2,
+.cJumbotron h3,
+.cJumbotron h4,
+.cJumbotron h5,
+.cJumbotron h6 {
+	font-weight: 300 !important;
+	color: #a5a5a5;
+}
